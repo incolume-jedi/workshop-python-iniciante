@@ -1,6 +1,7 @@
 # Variáveis Compostas
 
-São compostas por mais de um valor "simples" (mais de um número, mais de uma string) ou "compostas" (lista, tupla, dict, etc...).
+Também conhecidas por estrutura de dados.
+São compostas por mais de um valor "simples" (mais de um número, mais de uma string) ou outras estruturas "compostas" (lista, tupla, dict, etc...).
 
 ## Seus tipos são:
 - [list](#list)
