@@ -1,7 +1,7 @@
 # Exercício
 
 Nesse exercício vamos praticar alguns conceitos sobre o ambiente e a linguagem Python.
-Para a prática, vamos usar a _SWAPI_ (`https://swapi.co/`) ou _The Star Wars API_.
+Para a prática, vamos usar a _SWAPI_ (`https://swapi.dev/`) ou _The Star Wars API_.
 A ideia é que vamos fazer requisições para essa API e mostrar alguns resultados na tela.
 Sem mais, vamos as atividades.
 
@@ -20,7 +20,7 @@ Para instalar um pacote você usa `pip install <pacote>`
 * Crie um arquivo `teste.py`
 * Importe a biblioteca `requests`
 * Importe a biblioteca `json` (padrão do python)
-* Faça uma requisição para `https://swapi.co/api/people/1/` usando `requests.get`
+* Faça uma requisição para `https://swapi.dev/api/people/1/` usando `requests.get`
 * Converta o conteúdo _JSON_ da requisição em um `dict` utilizando a biblioteca `json`
 * Imprima `Hello, <name>!` no _console_
 * Execute `python teste.py`
@@ -51,7 +51,7 @@ python main.py --nome "Meu nome"
 ```
 
 _dicas_:
-* Uma requisição para `https://swapi.co/api/people/` retorna todos os personagens
+* Uma requisição para `https://swapi.dev/api/people/` retorna todos os personagens
     * O resultado é paginado de 10 em 10 personagens
     * Portanto, se não encontrar na página atual, tem que seguir para a página no atributo `next`
 * A comparação dos nomes deve ser _case insensitive_, ou seja, `luke skywalker == LUKE SKYWALKER`
