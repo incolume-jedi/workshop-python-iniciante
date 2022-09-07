@@ -9,7 +9,7 @@ Sem mais, vamos as atividades.
 
 ## 2. Crie e inicie um ambiente virtual
 
-Aqui você pode iniciar um ambiente virtual que desejar: `venv`, `pipenv`, `conda`.
+Aqui você pode iniciar um ambiente virtual que desejar: `venv`, `pipenv`, `conda`, poetry.
 
 ## 3. Instale a biblioteca `requests` no ambiente virtual
 
